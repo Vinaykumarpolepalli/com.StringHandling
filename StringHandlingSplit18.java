@@ -9,9 +9,10 @@ public class StringHandlingSplit18 {
 		System.out.println("Enter a String ");
 		String s= sc.nextLine();
 		
-		String [] arrstr = s.split("@");
+		String [] arrstr = s.split("@",3);
 	for(String str:arrstr) {
 		System.out.println(str);
+		
 	}
 	}
 
