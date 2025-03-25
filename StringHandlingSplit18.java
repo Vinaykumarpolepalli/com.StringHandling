@@ -9,7 +9,9 @@ public class StringHandlingSplit18 {
 		System.out.println("Enter a String ");
 		String s= sc.nextLine();
 		
+		
 		String [] arrstr = s.split("@",3);
+		String [] arrstr1 = s.split("\\s",3);
 	for(String str:arrstr) {
 		System.out.println(str);
 		
