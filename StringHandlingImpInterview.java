@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //write a program to find max character from given String
 //input is : aaabbcccc
-		//output:
+		//output:c 
 public class StringHandlingImpInterview {
 
 	public static void main(String[] args) {
